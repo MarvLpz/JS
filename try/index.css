@@ -1,0 +1,20 @@
+*
+{
+    margin:0;
+    padding: 0;
+    display: center;
+}
+
+body
+{
+    display: flex;
+    justify-content: center; /*Center the flex*/
+    align-items: center;/*align flex to cross axis*/
+    min-height: 100vh;
+}
+
+.calculator
+{
+    position: relative;
+    display: grid;
+}

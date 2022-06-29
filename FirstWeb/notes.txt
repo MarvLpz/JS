@@ -1,0 +1,25 @@
+Website Features
+Login
+Navigation
+    Dropdowns
+Carousel
+Thirdparty Component
+
+Theme?
+Pokemon
+
+get % height specific to parent
+    static size - always the size no matter what
+    percentage - depends on the parent element
+position?
+block?
+auto times 4? for number of columns?
+
+
+next steps
+drop background
+drop carousel content
+drop hover mechanics
+pokemon regions for side navs
+
+Tutorial creating custom html components/elements to import external html file

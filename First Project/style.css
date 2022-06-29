@@ -1,0 +1,30 @@
+/* class */
+
+/*Heirarchy: ID>CLASS>ELEMENT */
+/*inline styles overrides everything e.g. <element style="color:black">*/
+
+.blue { 
+    color: blue;
+}
+
+.rgbtransp
+{
+    color: rgba(44, 43, 43, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#myID.class1
+{
+    color: green;
+}
+
+div
+{
+    margin-bottom: 2mm;
+}
+
+form
+{
+    border-style: solid;
+    border-color: grey;
+    width: 50%;
+}

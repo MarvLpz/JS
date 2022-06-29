@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("Resources/BG.jpg");
+}
+
+div, body, li, ul {
+    border: solid 1px black; /*Good practice for me. to make borders visible for all divs*/
+}
+
+div[name="container"]{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 10% 90%;
+    justify-content: stretch;
+    align-items: stretch;
+    min-height: 100vh;
+    width: 100%;
+}
+
+div[name="top navigation"]{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column: span 4;
+}
+
+div[name="nav-link"]{
+    display: grid;
+    grid-row: auto;
+    height: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+li {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(201, 201, 201);
+    color: rgb(201, 201, 201);
+    background-color:rgb(75, 75, 75);
+}
+
+div[name="content"]{
+    display: flex; /*weird when using grid. should flex be used in internal divs?*/
+    grid-column: 2 / 5;
+    justify-content:center;
+    align-items: center;
+}
+
+div[name="carousel"]{
+    height: 80%;
+    width: 80%;
+}

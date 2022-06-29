@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcstyle.css"></link>
+</head>
+<body>
+    <form class="calculator" name="calc">
+        <input class="value" name="txt" id="txt"></input>
+        <span class="cancel" name="cancel" onclick="cancel()">C</span>
+        <span class="delete" name="delete" onclick="del()">Del</span>
+        <span mynumber class="num">7</span>
+        <span class="num">8</span>
+        <span class="num" onclick="document.calc.txt.value +='1'">9</span>
+        <span class="num">/</span>
+        <span class="num">4</span>
+        <span class="num">5</span>
+        <span class="num">6</span>
+        <span class="num">X</span>
+        <span class="num">1</span>
+        <span class="num">2</span>
+        <span class="num">3</span>
+        <span class="num">+</span>
+        <span class="zero">0</span>
+        <span class="num">.</span>
+        <span class="num">-</span>
+        <span class="equal">=</span>
+    </form>
+    <script src="calculator.js"></script>
+</body>
+</html>

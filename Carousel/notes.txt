@@ -1,0 +1,24 @@
+100vh and vw for full height and width
+
+box sizing? border box for easy sizing? box-sizing property allows us to include the padding and border in an element's total width and height.
+
+position relative?
+position: relative places an element relative to its current position without changing the layout around it, whereas position: absolute places 
+an element relative to its parent’s position and changing the layout around it. others: static, fixed, sticky
+
+what is rem?
+Relative to font-size of the root element. if its 2rem then its 2 times the font size of the root element
+
+what is block? displays block by default
+inline	Displays an element as an inline element (like <span>). Any height and width properties will have no effect. takes minimum amount of space as possible
+block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+
+defer = makes js loads after html
+
+dataset in js? how come it knows next in line 5?
+has something to do with data-* property
+
+closest in js?
+
+The difference between querySelector() and querySelectorAll() is that querySelector() returns a single object with the first HTML element that matches the 'selectors',
+ but querySelectorAll() returns an array of objects with all the HTML elements that match the 'selectors'.

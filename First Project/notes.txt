@@ -1,0 +1,7 @@
+Return to API methods, GET
+
+async return
+
+make website and utilize api 
+create page with login
+show details of index 0 api users 

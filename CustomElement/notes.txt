@@ -1,0 +1,26 @@
+web components
+set of web platform apis that allow us to create custom, reusable and encapsulated html tags to use in web pages and web apps
+
+An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and 
+separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean.
+
+custom elements
+shadow DOM - separates inside style to outside style?
+    The ShadowRoot interface of the Shadow DOM API is the root node of a DOM subtree that is rendered separately from a document's main DOM tree
+html templates - HTML element is a mechanism for holding HTML that is not to be rendered immediately when a 
+    page is loaded but may be instantiated subsequently during runtime using JavaScript
+
+
+Custom Elements lifecycle method, rendered by extend HTMLElement
+constructor
+connectedcallback
+disconnectedcallback
+attributechangedcallback
+
+PROBLEM
+cors policy blocking local folder run when using export js. installed live server extension in VSCODE to run code in localhost server
+
+
+next steps
+DEEP dive in lifecycle method,
+constructor? super?
